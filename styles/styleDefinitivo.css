@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h4{
+    font-weight: lighter;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../Imagenes/imagen2hockey.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 40px;
+    position: sticky;
+}
+h1{
+    font-size: 70px;
+}
+main .divPrincipal{
+    background-color: gainsboro;
+    min-height: 1150px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    background-color: RGB(33, 25, 21);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 1000px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#div2 article{
+    padding: 15px 10px;
+}
+#div2 p{
+    padding: 10px;
+}
+
+.divImagen img{
+    height: 400px;
+    width: 550px;
+    margin-top: 60px;
+    border: 2px solid RGB(33, 25, 21);
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.indice{
+    padding: 10px;
+    background-color: RGB(33, 25, 21);
+    border: 2px black solid;
+    height: fit-content;
+    margin: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+article{
+    padding: 10px;
+}
+aside{
+    padding: 20px;
+    background-color:  rgb(94, 59, 17);
+    
+}
+#div2{
+    padding: 20px;
+    font-size: 20px;
+}
+.active{
+    background-color: RGB(244, 214, 46);
+    color: black;
+}
+article caption{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: left;
+}
+table, tr, td, th{
+    background-color: rgb(214, 194, 15);
+    /* border: 2px solid orangered; */
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+td, tr{
+    border: 0px;
+}
+table th{
+    padding: 10px;
+    
+    background-color: rgb(33, 25, 21);
+    color: antiquewhite;
+}
+table{
+    width: 700px;
+}
+.bold{
+    font-weight: bold;
+}
+
+#div2{
+    height: 500px;
+    width: 1000px;
+}
+.div2Home{
+    width: 800px;
+}
+.divPrincipal{
+    height: 500px;
+}
+.textDiv{
+    height: 150px;
+    padding: 0px;
+}
+.textDiv p{
+    padding: 10px;
+}
+ol{
+    list-style-position:inside ;
+}
+li{
+    padding: 10px;
+}
+ul{
+    padding-left: 10px;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+dt{
+    font-weight: bolder;
+    font-size: larger;
+}
+dd{
+    padding: 10px;
+}
+.rulesDiv{
+    margin-top: 15px;
+}
+fieldset{
+    border: 0px;
+    padding: 10px;
+}
+.inputLargo input{
+    width: 450px;
+}
+fieldset div{
+    padding: 10px;
+}
+fieldset input{
+    height: 20px;
+}
+legend{
+    padding: 5px;
+}
+#submit{
+    padding: 10px;
+    height: 40px;
+    background-color:rgb(214, 194, 15);
+    color: black;
+    border-radius: 5px;
+
+}
+fieldset p{
+    width: 60px;
+    display: inline-block;
+}
+.map{
+    border: 2px solid RGB(33, 25, 21);
+    width: 400px;
+    height: 328px;
+    background-color: rgb(54, 41, 35);
+    color: antiquewhite;
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+#mainRegistration{
+    height: 1350px;
+}
+#mainGameinfo{
+    height: 1480px;
+}
+#maps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1700px;
+}
+
+
